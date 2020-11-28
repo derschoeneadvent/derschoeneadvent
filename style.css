@@ -8,12 +8,25 @@ body {
 .title {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 }
 
 .title img {
-  width: 100%;
+  width: 250%;
   height: auto;
+  margin-left: 5px;
+}
+
+@media only screen and (min-width: 500px) {
+  .title img {
+    width: 175%;
+  }
+}
+@media only screen and (min-width: 850px) {
+  .title img {
+    width: 175%;
+    margin-left: 20px;
+  }
 }
 
 /* mobile first grid layout */
