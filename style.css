@@ -302,12 +302,6 @@ footer a:hover {
   text-decoration: none;
 }
 
-/* Target disabled doors */
-
-:disabled + .door {
-  background-color: black;
-}
-
 iframe {
   display: flex;
   margin: 0 auto;
