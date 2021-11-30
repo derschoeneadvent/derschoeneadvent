@@ -1,29 +1,29 @@
 const adventskalender = {
   sources: [
-    "https://www.ardaudiothek.de/embed?episode=78838668",
-    "https://www.ardaudiothek.de/embed?episode=78867920",
-    "https://www.ardaudiothek.de/embed?episode=78838296",
-    "https://www.ardaudiothek.de/embed?episode=76915228",
-    "https://www.ardaudiothek.de/embed?episode=78838504",
-    "https://www.ardaudiothek.de/embed?episode=78296772",
-    "https://www.ardaudiothek.de/embed?episode=77974242",
-    "https://www.ardaudiothek.de/embed?episode=78838564",
-    "https://www.ardaudiothek.de/embed?episode=75594324",
-    "https://www.ardaudiothek.de/embed?episode=78838632",
-    "https://www.ardaudiothek.de/embed?episode=61249324",
-    "https://www.ardaudiothek.de/embed?episode=78838472",
-    "https://www.ardaudiothek.de/embed?episode=80759232",
-    "https://www.ardaudiothek.de/embed?episode=78838680",
-    "https://www.ardaudiothek.de/embed?episode=78838648",
-    "https://www.ardaudiothek.de/embed?episode=78838628",
-    "https://www.ardaudiothek.de/embed?episode=74267594",
-    "https://www.ardaudiothek.de/embed?episode=78838476",
-    "https://www.ardaudiothek.de/embed?episode=78301928",
-    "https://www.ardaudiothek.de/embed?episode=78838572",
-    "https://www.ardaudiothek.de/embed?episode=62406986",
-    "https://www.ardaudiothek.de/embed?episode=78838508",
-    "https://www.ardaudiothek.de/embed?episode=78867956",
-    "https://www.ardaudiothek.de/embed?episode=83450616",
+    "https://www.ardaudiothek.de/embed?episode=84688300",
+    "https://www.ardaudiothek.de/embed?episode=94523998",
+    "https://www.ardaudiothek.de/embed?episode=85030828",
+    "https://www.ardaudiothek.de/embed?episode=84589086",
+    "https://www.ardaudiothek.de/embed?episode=87030760",
+    "https://www.ardaudiothek.de/embed?episode=87239606",
+    "https://www.ardaudiothek.de/embed?episode=87761774",
+    "https://www.ardaudiothek.de/embed?episode=84027834",
+    "https://www.ardaudiothek.de/embed?episode=85505206",
+    "https://www.ardaudiothek.de/embed?episode=84139538",
+    "https://www.ardaudiothek.de/embed?episode=84144224",
+    "https://www.ardaudiothek.de/embed?episode=84146556",
+    "https://www.ardaudiothek.de/embed?episode=85254614",
+    "https://www.ardaudiothek.de/embed?episode=84595558",
+    "https://www.ardaudiothek.de/embed?episode=84655810",
+    "https://www.ardaudiothek.de/embed?episode=84595366",
+    "https://www.ardaudiothek.de/embed?episode=90816730",
+    "https://www.ardaudiothek.de/embed?episode=91118574",
+    "https://www.ardaudiothek.de/embed?episode=91324088",
+    "https://www.ardaudiothek.de/embed?episode=91472444",
+    "https://www.ardaudiothek.de/embed?episode=86805748",
+    "https://www.ardaudiothek.de/embed?episode=86179404",
+    "https://www.ardaudiothek.de/embed?episode=94118326",
+    "https://www.ardaudiothek.de/embed?episode=89294766",
   ],
   init: function () {
     this.cacheDom();
@@ -50,7 +50,7 @@ const adventskalender = {
     let currentDay = currentDate.getDate();
 
     // Check if it is December
-    if (currentMonth + 1 === 12) {
+    if (currentMonth + 1 === 11) {
       // Loop through every input and get its Day
       this.inputs.forEach((input) => {
         let day = parseInt(input.nextElementSibling.children[0].textContent);
