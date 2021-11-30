@@ -50,7 +50,7 @@ const adventskalender = {
     let currentDay = currentDate.getDate();
 
     // Check if it is December
-    if (currentMonth + 1 === 11) {
+    if (currentMonth + 1 === 12) {
       // Loop through every input and get its Day
       this.inputs.forEach((input) => {
         let day = parseInt(input.nextElementSibling.children[0].textContent);
